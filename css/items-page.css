@@ -1,0 +1,64 @@
+.main-item-section{
+    margin: 100px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.image-container{
+    width: 400px;
+}
+.cloth-img{
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+}
+.content-section{
+    width: 500px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-content{
+    color: grey;
+}
+.amount-text{
+    text-decoration: line-through;
+    color: rgb(187, 186, 186);
+}
+.pincode{
+    width: 250px;
+    border: none;
+    margin-right: 15px;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px rgb(138, 134, 134);
+}
+.review-text{
+    position: relative;
+    left: 117px;
+    width: 1000px;
+
+}
+.review-section{
+    position: relative;
+    left: 88px;
+    width: 1000px;
+    display: flex;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+.review-content{
+    color: black;
+}
+.review-container{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgb(138, 134, 134);
+    padding: 10px;
+    color: white;
+    background-color: rgb(231, 228, 228);
+}

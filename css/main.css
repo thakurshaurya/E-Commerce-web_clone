@@ -1,0 +1,111 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.main-content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.main-text {
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    width: 140%;
+    height: 4px;
+    background-color: #ff9800;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.banner-image {
+    border-radius: 10px;
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    height: 550px;
+    margin-bottom: 25px;
+    width: 290px;
+    border: none;
+    box-shadow: 0px 4px 14px -4px rgb(138, 134, 134);
+    background-color: white;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+.container:hover {
+    transform: scale(1.05);
+}
+
+.clothes-image {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.heading {
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.sub-heading {
+    color: grey;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.amount-text{
+    text-decoration: line-through;
+}
+.btn {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 94, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 9px rgb(138, 134, 134);
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: rgb(55, 127, 253);
+}
