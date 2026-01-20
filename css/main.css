@@ -66,7 +66,7 @@
 .clothes-image {
     height: 400px;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 20px;
 }
 
