@@ -17,10 +17,7 @@
 .middle-part-footer{
     display: flex;
     gap: 30px;
-    align-items: center;
-}
-.middle-center-part{
-    height: 174.167px;
+    align-items: top;
 }
 .footer-logo-section{
     display: flex;
