@@ -4,7 +4,7 @@ const cartQnt = document.querySelector(".cart-count");
 const CART_KEY = "cartCount";
 
 // Load cart count on EVERY page
-let val = Number(localStorage.getItem(CART_KEY)) || 0;
+let val = Number(sessionStorage.getItem(CART_KEY)) || 0;
 
 if (cartQnt) {
   cartQnt.innerText = val;
@@ -14,7 +14,7 @@ if (cartQnt) {
 if (cartBtn) {
   cartBtn.addEventListener("click", () => {
     val += 1;
-    localStorage.setItem(CART_KEY, val);
+    sessionStorage.setItem(CART_KEY, val);
 
     if (cartQnt) {
       cartQnt.innerText = val;
